@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script type="text/javascript">
+			var orts = parseInt(prompt("Ortsnii toog oruulna uu?"));
+			var ail = parseInt(prompt("Davhar dahi ailiin toog oruulna uu?"));
+			var davhar = parseInt(prompt("Davhriin toog oruulna uu?"));
+			var k = parseInt(prompt("Enter k number")); 
+			var n, s, a, b, c;
+			n = davhar * ail;
+			s = k % n;
+		 	a = Math.floor(k/n)+1;
+			b = s % davhar;
+			c = Math.floor(s/davhar)+1;
+			document.write(a+ "-r ortsnii, ",+c+ " -r davhriin, ", +b+ " toot")
+ 		</script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>anhnii too</title>
+    </head>
+    <body>
+        <script>
+            var y = prompt("Please enter your number")
+            var s = 0
+                for (var x = 2; x <= y; x++) {
+                var Prime = true;
+                    for (var i = 2; i < x; i++) {
+                        if (x%i===0) {
+                        Prime = false;
+                        }
+                    }
+                        if (Prime === true) {
+                            document.write(x + ",");
+                            s = s + x
+                        }
+                }
+                document.write(" sum=" + s)
+        </script>
+    </body>
+</html>

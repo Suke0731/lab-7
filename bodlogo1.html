@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>tsipruudiin niilber</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			var x, y, z
+			x=prompt("Please enter the first number");
+			y=prompt("Please enter the second number");
+			z=0;
+			while(x) {
+				z += x % 10;
+				x = Math.floor (x/10);
+			}
+			while(y) {
+				z += y % 10;
+				y = Math.floor (y/10)
+			}
+			window.alert("Tsipruudiin niilber ni " +z+ " baina.")
+		</script>
+	</body>
+</html>
